@@ -1,0 +1,96 @@
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+
+}
+.aluno{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px
+
+}
+
+.cor{
+
+    height: 20px;
+    width: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+
+}
+.azul{
+
+    background-color: #3347B0;
+}    
+.amarelo{
+
+    background-color: #E5B657;
+
+}
+.menu-status {
+    padding-top: 17px;
+    display: flex;
+    align-self: flex-start;
+}
+.legenda li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-direction: row;
+}
+.status {
+    color: #3347B0;
+}
+.legenda {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.menu-compacto{
+    padding-top: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3347B0;
+}
+h2{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #3347B0;
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+.card-aluno{
+
+    display: flex;
+    flex-direction:column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    
+}
+.card-aluno span{
+
+    text-align: center;
+    
+}
+
+.img-aluno{
+
+    height: 50%;
+    width: 70%;
+
+}

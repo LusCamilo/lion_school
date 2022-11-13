@@ -1,0 +1,51 @@
+header .icons-container{
+
+    background-color: #3347B0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding-left: 96px;
+    padding-right: 96px;
+
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 96px;
+    padding-right: 96px;
+    background-color: #BCC2E5;
+    height: 7vh;
+}
+
+.logo-titulo{
+
+    display: flex; 
+    gap: 10px;
+}
+.sair {
+
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    line-height: 28px;
+    gap: 12px;
+    text-decoration: none;
+
+}
+h1 {
+
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+
+}
+
+
+.text-sair{
+
+    display: flex;
+    align-items: center;
+    
+}

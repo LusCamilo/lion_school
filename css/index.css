@@ -1,0 +1,75 @@
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-container{
+    display: flex;
+    padding-top:  200px;
+    padding-bottom: 200px;
+}
+.container-text{
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+
+}
+.computerLP{
+    padding-left: 10px;
+    width: 80%;
+    
+}
+h2{
+   font-size: 3.582rem; 
+    width: 75%;
+
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+h2 span{
+    
+    color: #3347B0;
+
+}
+.studant{
+    min-width: 300px;
+}
+.icone{
+
+    max-width: 40%;
+    min-width: 40%;
+    height: 80%;
+
+
+}
+.all-button{
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    height: 250px;
+    background: #3347B0;
+    border: 1px solid #000000;
+    box-shadow: 12px 12px 4px rgba(51, 71, 176, 0.5);
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+
+}

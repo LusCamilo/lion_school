@@ -1,0 +1,31 @@
+header{
+
+    background-color: #3347B0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding-left: 96px;
+    padding-right: 96px;
+
+}
+.logo-titulo{
+
+    display: flex; 
+    gap: 10px;
+}
+h1 {
+
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.sair {
+
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    line-height: 28px;
+    gap: 12px;
+    text-decoration: none;
+
+}

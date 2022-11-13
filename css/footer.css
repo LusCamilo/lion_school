@@ -1,0 +1,42 @@
+footer {
+
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3347B0;
+    padding-left: 98px;
+    padding-right: 98px;
+
+}
+.contato-container{
+    display: flex; 
+    gap: 24px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+i{  
+    color: #fff;
+    font-size: 25px;
+}
+.fa-brands{
+    
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 12px;
+    
+}
+.redes-sociais{
+
+    display: flex;
+    gap: 44px;
+
+}
+.autor{
+
+    font-size: 1.25rem;
+
+}
